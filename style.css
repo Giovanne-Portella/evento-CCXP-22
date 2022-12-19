@@ -1,0 +1,115 @@
+body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divLogo{
+    background-color: #FFD900;
+}
+
+.imgLogo{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    width: 200px;
+
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.bloco1{
+    padding-top: 15px;
+    background-color: #514988;
+    text-align: center;
+    width: 50% auto;
+    height: 780px;
+    color: white;
+}
+
+.bloco1 h1{
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.bloco1 h2{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.bloco1 p{
+    font-size: 28px;
+    font-style: normal;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    width: 60% auto;
+    margin-bottom: -50px;
+}
+
+.timer h1{
+   color:  #514988;
+   font-size: 70px;
+   text-align: center
+}
+
+.align{
+    text-align: center;
+}
+
+.align h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #E33881;
+}
+
+.ingressos h2{
+    margin-top: 10px;
+    color: #F3C61F;
+    margin-left: 70px;    
+
+    font-size: 27px;
+    font-weight: 700;
+    
+}
+
+.ingressos{
+    display: grid;
+    grid-auto-flow: column;
+
+    width: auto;
+}
+
+.imgIngresso{
+    margin-left: 15px;
+    width: 200px;
+    
+}
+
+
+button{
+    border: 0;
+    background: #514988;
+    color: white;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+
+    font-size: 35px;
+
+    cursor: pointer;
+
+}
+
+.divButton{
+    padding-top: 80px;
+    width: auto;
+}
